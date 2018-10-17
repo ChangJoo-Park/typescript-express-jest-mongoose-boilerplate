@@ -7,7 +7,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Server file w/ ts-node",
+      "name": "Launch Server w/ ts-node",
       "protocol": "inspector",
       "args": ["${workspaceFolder}/src/server.ts"],
       "cwd": "${workspaceRoot}",
