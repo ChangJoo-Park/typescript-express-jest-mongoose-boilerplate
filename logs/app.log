@@ -1,0 +1,103 @@
+{ message: 'hello world',
+  level: 'info',
+  timestamp: '2018-10-18 00:27:45',
+  [Symbol(level)]: 'info',
+  [Symbol(message)]: '{"message":"hello world","level":"info"}' }
+{ message: 'hello world',
+  level: 'info',
+  timestamp: '2018-10-18 00:28:54',
+  [Symbol(level)]: 'info',
+  [Symbol(message)]: '{"message":"hello world","level":"info"}' }
+{ message: 'hello world',
+  level: 'info',
+  timestamp: '2018-10-18 00:29:26',
+  [Symbol(level)]: 'info',
+  [Symbol(message)]: '{"message":"hello world","level":"info"}' }
+{ message: 'hello world',
+  level: 'info',
+  timestamp: '2018-10-18 00:29:28',
+  [Symbol(level)]: 'info',
+  [Symbol(message)]: '{"message":"hello world","level":"info"}' }
+{ message: 'hello world',
+  level: 'info',
+  timestamp: '2018-10-18 00:29:28',
+  [Symbol(level)]: 'info',
+  [Symbol(message)]: '{"message":"hello world","level":"info"}' }
+{ message: 'hello world',
+  level: 'info',
+  timestamp: '2018-10-18 00:29:28',
+  [Symbol(level)]: 'info',
+  [Symbol(message)]: '{"message":"hello world","level":"info"}' }
+{ message: 'hello world',
+  level: 'info',
+  timestamp: '2018-10-18 00:29:29',
+  [Symbol(level)]: 'info',
+  [Symbol(message)]: '{"message":"hello world","level":"info"}' }
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: 	App is running at http://localhost:%d
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: 	Press CTRL-C to stop
+
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+C:\Developments\typescript-express-jest-mongoose-boilerplate\src\logger.ts info: hello world
+logger.ts info: hello world
+logger.ts info: 	App is running at http://localhost:%d
+logger.ts info: 	Press CTRL-C to stop
+
+logger.ts info: hello world
+logger.ts info: hello world
+logger.ts info: hello world
+logger.ts info: hello world
+logger.ts info: hello world
+logger.ts info: hello world
+logger.ts info: hello world
+logger.ts info: hello world
+logger.ts info: hello world
+{ message: 'hello world',
+  level: 'info',
+  timestamp: '2018-10-18 00:34:54',
+  [Symbol(level)]: 'info',
+  [Symbol(message)]: '{"message":"hello world","level":"info"}' }
+{ level: 'info',
+  message: '\tApp is running at http://localhost:%d',
+  timestamp: '2018-10-18 00:34:56',
+  [Symbol(level)]: 'info',
+  [Symbol(splat)]: [ 8000 ],
+  [Symbol(message)]:
+   '{"level":"info","message":"\\tApp is running at http://localhost:%d"}' }
+{ message: '\tPress CTRL-C to stop\n',
+  level: 'info',
+  timestamp: '2018-10-18 00:34:56',
+  [Symbol(level)]: 'info',
+  [Symbol(message)]: '{"message":"\\tPress CTRL-C to stop\\n","level":"info"}' }
+{ message: 'hello world',
+  level: 'info',
+  timestamp: '2018-10-18 00:34:59',
+  [Symbol(level)]: 'info',
+  [Symbol(message)]: '{"message":"hello world","level":"info"}' }
+{ message: 'hello world',
+  level: 'info',
+  timestamp: '2018-10-18 00:34:59',
+  [Symbol(level)]: 'info',
+  [Symbol(message)]: '{"message":"hello world","level":"info"}' }
+{ message: 'hello world',
+  level: 'info',
+  timestamp: '2018-10-18 00:34:59',
+  [Symbol(level)]: 'info',
+  [Symbol(message)]: '{"message":"hello world","level":"info"}' }
+{ message: 'hello world',
+  level: 'info',
+  timestamp: '2018-10-18 00:34:59',
+  [Symbol(level)]: 'info',
+  [Symbol(message)]: '{"message":"hello world","level":"info"}' }
