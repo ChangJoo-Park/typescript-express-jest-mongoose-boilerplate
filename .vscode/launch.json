@@ -22,6 +22,9 @@
       "args": ["${relativeFile}"],
       "cwd": "${workspaceRoot}",
       "runtimeArgs": ["-r", "ts-node/register"],
+      "env": {
+        "NODE_ENV": "develop"
+      },
       "internalConsoleOptions": "openOnSessionStart"
     },
     {
@@ -44,6 +47,9 @@
           "--config",
           "${workspaceRoot}/jest.config.js"
         ],
+      },
+      "env": {
+        "NODE_ENV": "test"
       },
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
