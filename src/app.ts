@@ -1,15 +1,13 @@
-import dotenv from "dotenv";
 import express from "express";
 import mogran from "morgan";
+import envConfig from "./helpers/env";
 import logger from "./logger";
-
-dotenv.config();
 
 const morganFormat = process.env.NODE_ENV !== "production" ? "dev" : "combined";
 
 // Create Express server
 const app = express();
-app.set("port", process.env.PORT || 8000);
+app.set("port", envConfig.env.port || 8000);
 
 app.use(
     mogran(morganFormat, {
