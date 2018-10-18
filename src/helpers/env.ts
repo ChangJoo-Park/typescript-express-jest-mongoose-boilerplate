@@ -1,13 +1,8 @@
 import dotenv from "dotenv";
 
-dotenv.config();
+import { IEnvironment } from "../interfaces/IEnvironment";
 
-interface IEnvironment {
-    dbHost: string;
-    dbPort: string;
-    dbName: string;
-    port: string;
-}
+dotenv.config();
 
 const getEnv = (nodeEnv: string = "develop"): IEnvironment => {
     const procesENV = process.env;
