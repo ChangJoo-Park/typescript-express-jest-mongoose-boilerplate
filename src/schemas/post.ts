@@ -6,10 +6,7 @@ export const PostSchema: Schema = new Schema({
     published: Boolean,
     title: String,
   }, {
-    timestamps: {
-        createdAt: "createdAt",
-        updatedAt: "updatedAt",
-    },
+    timestamps: true,
   });
 
 export const Post: Model<IPostModel> = model<IPostModel>("Post", PostSchema);
