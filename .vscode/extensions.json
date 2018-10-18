@@ -4,6 +4,7 @@
     "dbaeumer.vscode-eslint",
     "msjsdiag.debugger-for-chrome",
     "orta.vscode-jest",
-    "mikestead.dotenv"
+    "mikestead.dotenv",
+    "ms-azuretools.vscode-cosmosdb"
   ]
 }
