@@ -1,5 +1,6 @@
 import express from "express";
 import mogran from "morgan";
+import * as postController from "./controllers/posts";
 import envConfig from "./helpers/env";
 import logger from "./logger";
 
@@ -31,5 +32,7 @@ app.get("/", (req, res) => {
     logger.info("hello world");
     res.status(200).send("Hello World");
 });
+
+app.get("/posts", postController.get);
 
 export default app;
