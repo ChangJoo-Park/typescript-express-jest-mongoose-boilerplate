@@ -1,6 +1,6 @@
 import express from "express";
 import app from "./app";
-import logger from './logger';
+import logger from "./logger";
 
 /**
  * Start Express server.

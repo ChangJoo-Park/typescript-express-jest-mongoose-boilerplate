@@ -1,14 +1,15 @@
+import * as fs from "fs";
 import winston from "winston";
-import * as fs from 'fs';
 
-const logDir = 'logs';
+const logDir = "logs";
+
 if (!fs.existsSync(logDir)) {
   fs.mkdirSync(logDir);
 }
 
 const options = {
   file: {
-    level: 'info',
+    level: "info",
     filename: `./${logDir}/app.log`,
     handleExceptions: true,
     json: true,
@@ -17,26 +18,26 @@ const options = {
     colorize: false,
     format: winston.format.combine(
       winston.format.timestamp({
-        format: "YYYY-MM-DD HH:mm:ss"
+        format: "YYYY-MM-DD HH:mm:ss",
       }),
-      winston.format.prettyPrint()
-    )
+      winston.format.prettyPrint(),
+    ),
   },
 
   console: {
-    level: 'debug',
+    level: "debug",
     handleExceptions: true,
     json: false,
-    colorize: true
-  }
+    colorize: true,
+  },
 };
 
 const logger = winston.createLogger({
   transports: [
       new winston.transports.File(options.file),
-      new winston.transports.Console(options.console)
+      new winston.transports.Console(options.console),
   ],
-  exitOnError: false
-})
+  exitOnError: false,
+});
 
 export default logger;

@@ -1,7 +1,7 @@
+import dotenv from "dotenv";
 import express from "express";
 import mogran from "morgan";
-import dotenv from 'dotenv';
-import logger from './logger';
+import logger from "./logger";
 
 dotenv.config();
 
@@ -13,26 +13,24 @@ app.set("port", process.env.PORT || 8000);
 
 app.use(
     mogran(morganFormat, {
-      skip: function(req, res) {
+      skip(req, res) {
         return res.statusCode < 400;
       },
-      stream: process.stderr
-    })
+      stream: process.stderr,
+    }),
   );
 
 app.use(
     mogran(morganFormat, {
-        skip: function(req, res) {
+        skip(req, res) {
         return res.statusCode >= 400;
         },
-        stream: process.stdout
-    })
+        stream: process.stdout,
+    }),
 );
 
-
-
 app.get("/", (req, res) => {
-    logger.info('hello world')
+    logger.info("hello world");
     res.status(200).send("Hello World");
 });
 
