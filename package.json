@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "jest",
-    "dev": "cross-env NODE_ENV=production ts-node src/server.ts"
+    "dev": "cross-env NODE_ENV=develop ts-node src/server.ts"
   },
   "keywords": [],
   "author": "",
