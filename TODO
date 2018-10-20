@@ -1,0 +1,7 @@
+할일: 
+  TypeScript를 이용한 보일러 플레이트 만들기
+  ✔ VSCode Debugger 툴로 앱 실행할 수 있음 @done(18-10-20 11:56)
+  ✔ Jest를 이용해 테스트를 할 수 있음 @done(18-10-20 11:56)
+  ✔ Mongoose 모델을 TypeScript를 이용해서 만들 수 있음 @done(18-10-20 11:57)
+  ☐ Mongoose 모델과 스키마를 Jest를 이용해 테스트한다.
+  ☐ Winston과 Morgan을 이용해 로깅을 한다.
